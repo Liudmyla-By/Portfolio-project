@@ -26,7 +26,10 @@ h1 {
 }
 
 .hero {
-  background: var(--third-color);
+  background-image: url(images/5.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: var(--third-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -36,7 +39,7 @@ h1 {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
-  padding: 10px 25px;
+  padding: 10px 10px;
 }
 
 .btn-branding {
@@ -47,4 +50,42 @@ h1 {
   line-height: 27px;
   padding: 15px 30px;
   opacity: 0.7;
+  margin-right: 20px;
+}
+
+.project-desciption {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-desciption {
+  padding: 120px 60px;
 }

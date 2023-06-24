@@ -26,7 +26,7 @@ h1 {
 }
 
 .hero {
-  background-image: url(images/5.png);
+  background-image: url(/images/5.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: var(--third-color);
@@ -43,7 +43,7 @@ h1 {
 }
 
 .btn-branding {
-  background: var(--primery-color);
+  background: var(--secondary-color);
   border-radius: 6px;
   color: black;
   font-size: 18px;
@@ -154,4 +154,29 @@ h1 {
 
 .navbar-logo {
   max-height: 45px;
+}
+
+footer {
+  height: 100px;
+  margin-top: 100px;
+  background: var(--third-color);
+}
+
+footer i {
+  color: black;
+  font-size: 16px;
+  background: white;
+  padding: 10px;
+  border-radius: 100%;
+  margin: 10px 15px;
+}
+
+footer i:hover {
+  color: white;
+  background: black;
+}
+
+footer p {
+  font-size: 10px;
+  margin: 10px auto;
 }

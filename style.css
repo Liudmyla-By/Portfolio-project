@@ -146,3 +146,12 @@ h1 {
 .content {
   margin: 30px;
 }
+
+.bg-nb {
+  background-color: var(--third-color);
+  opacity: 0.8;
+}
+
+.navbar-logo {
+  max-height: 45px;
+}

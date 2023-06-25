@@ -25,6 +25,16 @@ h1 {
   font-weight: medium;
 }
 
+h4 {
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .hero {
   background-image: url(/images/5.png);
   background-size: 100%;
@@ -45,12 +55,21 @@ h1 {
 .btn-branding {
   background: var(--secondary-color);
   border-radius: 6px;
+  border-color: var(--third-color);
   color: black;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
   opacity: 0.7;
   margin-right: 20px;
+}
+
+.btn-branding:hover {
+  opacity: 0.;
+  background-color: var(--third-color);
+  color: black;
+  border: 4px double var(--secondary-color);
+  transition: all 200ms ease;
 }
 
 .project-desciption {
@@ -73,10 +92,6 @@ h1 {
     line-height: 30px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
-
   .project-desciption {
     padding: 0;
     text-align: center;
@@ -88,20 +103,12 @@ h1 {
   }
 }
 
-.btn-branding-outline {
-  border: 1px solid var(--primery-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-
 .project-desciption {
   padding: 120px 60px;
 }
 
 .about-section {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .about-section h1 {
@@ -114,52 +121,19 @@ h1 {
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
-  margin: 30px;
-}
-
-.content-container {
-  padding: 160px 20px;
-}
-
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.content h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
-
-.content h3 {
-  font-size: 24px;
-  line-height: 1.5;
-
-  font-family: var(--default-font-family);
-}
-
-.content p {
-  font-size: 14px;
-}
-
-.content {
-  margin: 30px;
-}
-
 .bg-nb {
-  background-color: var(--third-color);
+  background-color: var(--secondary-color);
   opacity: 0.8;
 }
 
 .navbar-logo {
-  max-height: 45px;
+  max-height: 50px;
 }
 
 footer {
   height: 100px;
   margin-top: 100px;
-  background: var(--third-color);
+  background: var(--secondary-color);
 }
 
 footer i {
@@ -179,4 +153,35 @@ footer i:hover {
 footer p {
   font-size: 10px;
   margin: 10px auto;
+}
+
+.heading {
+  background-image: url(/images/5.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: var(--third-color);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+form {
+  display: block;
+  font-family: var(--default-font-family);
+  margin: 30px 20px;
+}
+
+input,
+textarea {
+  margin: 7px 0 40px;
+}
+
+.contact-section {
+  margin-top: 180px;
+  text-align: center;
+}
+
+.contact-section a {
+  opacity: 0.5;
+  font-size: 20px;
+  text-align: center;
 }
